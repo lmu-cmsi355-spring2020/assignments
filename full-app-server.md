@@ -40,11 +40,12 @@ The server should reflect the best practices described in the following sections
 * _Application overview:_ Provide documentation that describes the awesome things that your application server is meant to do over a network
 * _Protocol usage:_ Give prospective client developers (including yourselves!) sufficient information on how to interact with the server and how to interpret its responses
 * (if applicable) _Message syntax:_ For full-blown applications, many directives will have parameters, specific formats, data types, etc.—make sure that information for this is fully available so that prospective client developers know how to validate data going to and from your server
+* _Security and privacy concerns:_ We’re doing our server in “early Internet style” 😅 where data will be sent over the network in the clear. Industrial-strength hardening is also unlikely to happen (unless you totally rock it with Locust and are able to act upon any discoveries there). Provide a quick statement on the security and privacy implications of these characteristics, as well as any other related limitations that you think that your server has in this area.
 
 To highlight the importance of these characteristics, some of them are direct sources of the grade for the assignment.
 
 ## Deployment to AWS
-Having the source code to a network server is great; having a live instance available is even better. To complete the assignment, make sure that an instance of your server is running on an EC2 instance on AWS, publicly accessible by its default hostname with the appropriate port being open and ready to accept connections.
+Having the source code to a network server is great; having a live instance available is even better. To complete the assignment, make sure that an instance of your server is running on an EC2 instance on AWS, publicly accessible by its default hostname with the appropriate port being open and ready to accept connections. (with that information included in your server’s documentation)
 
 Server resource use and demand should stay well within the AWS free tier. In the unlikely event that your server has such high resource demands that it runs the risk of incurring undesirable costs, make sure that it is easy to start and stop as needed. I can give you a public key that will allow me to do this so that I can start and stop it as needed for grading purposes.
 
@@ -80,9 +81,10 @@ This assignment covers outcomes _2a_—_2c_, _3a_, _3b_, and _4a_–_4f_ as desc
 | • Error handling | 20 points | _3a_, _3b_, _4a_–_4d_ |
 | Documentation | 40 points total | |
 | • Application overview | 5 points | _4c_, _4d_ |
-| • Protocol usage | 20 points | _3a_, _3b_, _4c_, _4d_ |
-| • Message syntax and/or other content | 10 points | _3a_, _3b_, _4c_, _4d_ |
-| • AWS server information | 5 points | _3a_, _3b_, _4c_, _4d_ |
+| • Protocol usage | 15 points | _3a_, _3b_, _4c_, _4d_ |
+| • Message syntax and/or other content | 7 points | _3a_, _3b_, _4c_, _4d_ |
+| • Security and privacy concerns | 10 points | _2b_, _2c_, _3a_, _3b_, _4c_, _4d_ |
+| • AWS server information | 3 points | _3a_, _3b_, _4c_, _4d_ |
 | AWS deployment | 40 points total | |
 | • Ease of startup/shutdown | 10 points | _2a_, _4d_ |
 | • Proper configuration (ports, public IP) | 15 points | _2a_, _4d_ |
