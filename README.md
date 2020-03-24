@@ -7,5 +7,5 @@ This repository hosts a public copy of the assignment write-ups for this course 
 - [Assignment 0204](./network-exploration-log.md) Network exploration log
 - [Assignment 0225](./one-shot.md) One-shot network services
 - [Assignment 0305](./one-more-shot.md) One-shot network services in another language
-- **Assignment 0414** Full application server
-- **Assignment 0505** Application client(s)
+- [Assignment 0414](./full-app-server.md) Full application server
+- [Assignment 0505](./full-app-client.md) Application client(s)
