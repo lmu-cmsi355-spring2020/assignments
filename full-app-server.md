@@ -13,7 +13,7 @@ The full tic-tac-toe servers listed in Dr. Toal’s [Python](https://cs.lmu.edu/
 Library/framework reference documentation will continue to prove useful; don’t hesitate to go into greater depth based on what you saw in the one-shot assignments:
 * Python: [socketserver](https://docs.python.org/3/library/socketserver.html), [socket](https://docs.python.org/3/library/socket.html)
 * JavaScript: [net](https://nodejs.org/api/net.html)
-* WebSockets: [ws](https://github.com/websockets/ws)
+* WebSockets: [ws](https://github.com/websockets/ws), [Python WebSockets](https://websockets.readthedocs.io/)
 
 For deeper background and details, Chapters 3 and 4 of the Comer book continue to apply for this assignment. The real-world protocols in Chapter 4 can now be viewed as a set of examples and case studies that might be useful when making design decisions about your own protocol.
 
